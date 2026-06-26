@@ -1,0 +1,13 @@
+{
+  "name": "bake-and-joy",
+  "version": "1.0.0",
+  "description": "Bake and Joy Fullstack E-Commerce & Inventory Management",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run build --prefix frontend -- --watch\"",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.3"
+  }
+}
