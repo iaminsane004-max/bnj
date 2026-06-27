@@ -46,5 +46,5 @@ app.use((err, req, res, next) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`\n  Bake & Joy backend service is running at:\n  > Local: http://localhost:${PORT}\n`);
+  console.log(`\n  bake n joy backend service is running at:\n  > Local: http://localhost:${PORT}\n`);
 });

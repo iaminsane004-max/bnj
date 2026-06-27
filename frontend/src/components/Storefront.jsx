@@ -96,7 +96,7 @@ export default function Storefront({ onOrderCreated, onViewAdmin, shopPhone }) {
       });
 
       const messagePayload = 
-`🛍️ *New Order from Bake and Joy Website!*
+`🛍️ *New Order from bake n joy Website!*
 
 *Order ID:* #${shortOrderId}
 *Customer:* ${formData.name}
@@ -142,8 +142,7 @@ ${itemsListText}
             <ShoppingBag className="w-5 h-5" />
           </div>
           <div>
-            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-amber-900 heading-font">Bake & Joy</h1>
-            <p className="text-[10px] text-stone-500 uppercase tracking-widest font-bold">Premium Patisserie</p>
+            <h1 className="text-xl sm:text-2xl font-extrabold tracking-tight text-amber-900 heading-font">bake n joy</h1>
           </div>
         </div>
 

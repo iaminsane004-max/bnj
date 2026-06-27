@@ -161,7 +161,7 @@ export default function AdminDashboard({ onBackToStore }) {
     const shortId = order.id.substring(0, 8).toUpperCase();
     const formattedTotal = parseFloat(order.total_amount).toFixed(2);
     const receiptMessage = 
-`✅ *Payment Received! Bake and Joy Confirmation*
+`✅ *Payment Received! bake n joy Confirmation*
 
 Thank you! We have received your payment for *Order #${shortId}*.
 

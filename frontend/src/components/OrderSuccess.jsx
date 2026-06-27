@@ -15,7 +15,7 @@ export default function OrderSuccess({ order, onBackToStore, shopUpi, shopPhone 
   }
 
   const messagePayload = 
-`🛍️ *New Order from Bake and Joy Website!*
+`🛍️ *New Order from bake n joy Website!*
 
 *Order ID:* #${shortOrderId}
 *Customer:* ${customer_name}
@@ -32,7 +32,7 @@ ${itemsListText}
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${shopPhone || '919876543210'}&text=${encodedMessage}`;
 
   // Create the standard P2P UPI payment intent URL
-  const upiIntentUrl = `upi://pay?pa=${shopUpi || 'bakeandjoy@okaxis'}&pn=Bake%20and%20Joy&am=${total_amount}&cu=INR&tn=Order_${shortOrderId}`;
+  const upiIntentUrl = `upi://pay?pa=${shopUpi || 'bakeandjoy@okaxis'}&pn=bake%20n%20joy&am=${total_amount}&cu=INR&tn=Order_${shortOrderId}`;
 
   // Automatically open WhatsApp link on component mount
   React.useEffect(() => {
